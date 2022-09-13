@@ -154,7 +154,7 @@ width: 50%;
 }
 
 .benefits-container { 
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -189,7 +189,7 @@ width: 50%;
 
 .tile-img:hover {
     transform: scale(1.1);
-   
+ 
 }
 
 .animals-container-main { 
