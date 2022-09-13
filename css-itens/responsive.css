@@ -1,0 +1,132 @@
+
+
+@media only screen and (max-width: 1200px) {
+    .card-element { 
+        width:unset;
+        flex-direction: column;
+        padding: 50px 5%;
+        width: 90%;
+    }
+
+    .benefits-container { 
+        height: 120vh;
+    }
+
+    .benefits-switchers { 
+      
+        bottom: 0%;
+    }
+
+   
+  }
+
+  @media only screen and (max-width: 900px) {
+    	.animals-container { 
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .animals-container p { 
+            font-size: 3.5vw;
+        }
+    
+
+    
+    
+   
+  }
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 800px) {
+    .header-container-itens { 
+        display: none;
+    }
+
+    .switcher p { 
+        font-size: 14px;
+    }
+
+    .img-swither { 
+        height: 75px;
+        width: 75px;
+    }
+
+    .benefits-switchers { 
+        gap: 15px;
+    }
+
+    .switcher-first, .switcher-second { 
+        gap:15px;
+    }
+
+    .land-container { 
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+    }
+
+    .land-container-itens { 
+        width: 100%;
+    }
+
+    .land-container-itens p { 
+        font-size: 3.5vw;
+    }
+
+    .land-image { 
+
+        width: 100%;
+        margin-left: -15%;
+        
+        }
+
+    .art-container { 
+       margin: 5%;
+    }
+
+    .art-header { 
+        width: 100%;
+    }
+
+
+    .art-header p  { 
+        font-size: 3.5vw;
+    }
+
+    .art-first, .art-second { 
+        width: 80%;
+    }
+    
+   
+  }
+
+  @media only screen and (max-width: 600px) {
+    .animals-photo { 
+        height: 300px;
+        width: 300px;
+    }
+    
+    .button-container { 
+        font-size: 16px;
+    }
+
+    h3 { 
+        font-size: 6vw;
+    }
+    
+    
+    
+   
+  }
+
+
+
+
+  

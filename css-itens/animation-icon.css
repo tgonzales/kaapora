@@ -1,0 +1,47 @@
+
+
+.icone-grid { 
+   
+    animation-name: A;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 10px
+   
+}
+
+
+
+
+
+.icones-center { 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 40px;
+    width: 25px;
+    
+}
+
+
+@keyframes A {
+
+    0% {
+     transform: translateY(00px);
+    }
+
+    33% { 
+
+        transform: translateY(-30px);
+    }
+
+
+    66% { 
+        transform: translateY(-70px);
+    }
+
+
+  
+    100% {
+        transform: translateY(-105px);
+    }
+  }

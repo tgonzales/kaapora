@@ -1,0 +1,203 @@
+.header-container { 
+    display: flex;
+   
+    align-items: center;
+    gap: 30%;
+}
+
+.header-container-itens { 
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  
+   
+}
+
+.header-container-itens a { 
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-container-itens a:hover { 
+    color: #1AB791 ;
+
+}
+
+.button-container { 
+    padding: 5px 35px;
+    background-color: #1AB791 ;
+    color: white;
+    border-radius: 99px;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 24px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+.button-container:hover { 
+    background-color: #0b896a;
+}
+
+
+
+.kaapora-container { 
+    background-image: url('/img/forest.png');
+    background-size: cover;
+    height: 90vh;
+    background-position: center center;
+}
+
+
+.kaapora-containers-itens { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.kaapora-container h1 { 
+    line-height: 80%;
+}
+
+.join-container { 
+    font-size: 32px;
+}
+
+.animals-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin: 5%;
+    position: relative;
+}
+
+
+.line-separator {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 2px;
+    width: 60%;
+    background-color: white;
+    
+}
+
+.land-container { 
+    display: flex;
+    flex-direction: row-reverse;
+   
+    
+    gap: 10%;
+    margin: 15% 0% 0% 0%;
+    padding: 0% 5% 0% 0%;
+    position: relative;
+    
+}
+
+.land-container-itens { 
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.land-image { 
+
+width: 50%;
+
+}
+
+.land-button-container { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 15px;
+}
+
+.blue { 
+    background-color: #00A5FF;
+}
+
+ .blue:hover{ 
+    background-color: #007dc0 !important;
+}
+
+.art-container { 
+    margin: 0% 10%;
+    position: relative;
+    height: auto ;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+
+
+.art-header { 
+  width: 75%;
+ 
+  margin-top: 10%;
+}
+
+.tile-img { 
+    height: auto;
+    width: 33%;
+}
+
+.benefits-container { 
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    
+}
+
+.art-first, .art-second { 
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+
+
+.footer-container { 
+    justify-content: center;
+    align-content: center;
+    padding: 50px 0px 50px 0;
+}
+
+.image-grid { 
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.tile-img { 
+    transition: 0.1s ease-in;
+}
+
+.tile-img:hover {
+    transform: scale(1.1);
+   
+}
+
+.animals-container-main { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+

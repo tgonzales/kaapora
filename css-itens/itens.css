@@ -119,7 +119,7 @@ width: 250px;
     border-radius: 25px;
     gap: 20%;
     position: absolute;
-    width: 1200px;
+    width:1200px;
     top: 0;
    
 }
@@ -129,10 +129,10 @@ width: 250px;
 .benefits-switchers { 
 
  position: absolute;
-    bottom: 50px;
+    bottom: 15%;
     display: flex;
     flex-direction: row;
-    gap: 75px;
+ gap: 35px;
     justify-content: center;
    z-index: 2;
    
@@ -154,10 +154,21 @@ width: 250px;
 
 
 .hover-switcher { 
-    transition: 0.3s ease-in;
+    transition: 0.1s ease-in;
 }
 
 .hover-switcher:hover { 
     transform: scale(1.1);
    
+}
+
+.img-swither { 
+    height: 100px;
+    width: 100px;
+}
+
+.switcher-first,.switcher-second { 
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
 }

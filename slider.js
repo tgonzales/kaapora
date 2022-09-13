@@ -5,7 +5,7 @@ jQuery('.water-trigger').on('click', function(e) {
     jQuery ('.standard' ) .removeClass('standard-active');
     jQuery ('.gold' ) .removeClass('gold-active');
     jQuery ('.earth' ) .removeClass('earth-active');
-    jQuery ('.water' ) .toggleClass('water-active');
+    jQuery ('.water' ) .addClass('water-active');
   });
 
   jQuery('.earth-trigger').on('click', function(e) {
@@ -15,7 +15,7 @@ jQuery('.water-trigger').on('click', function(e) {
     jQuery ('.standard' ) .removeClass('standard-active');
     jQuery ('.gold' ) .removeClass('gold-active');
     jQuery ('.water' ) .removeClass('water-active');
-    jQuery ('.earth' ) .toggleClass('earth-active');
+    jQuery ('.earth' ) .addClass('earth-active');
    
   });
 
@@ -25,7 +25,7 @@ jQuery('.water-trigger').on('click', function(e) {
     jQuery ('.standard' ) .removeClass('standard-active');
     jQuery ('.gold' ) .removeClass('gold-active');
     jQuery ('.water' ) .removeClass('water-active');
-    jQuery ('.fire' ) .toggleClass('fire-active');
+    jQuery ('.fire' ) .addClass('fire-active');
    
   });
 
@@ -36,7 +36,7 @@ jQuery('.water-trigger').on('click', function(e) {
     jQuery ('.standard' ) .removeClass('standard-active');
     jQuery ('.earth' ) .removeClass('earth-active');
     jQuery ('.water' ) .removeClass('water-active');
-    jQuery ('.gold' ) .toggleClass('gold-active');
+    jQuery ('.gold' ) .addClass('gold-active');
    
   });
 
@@ -47,7 +47,7 @@ jQuery('.water-trigger').on('click', function(e) {
     jQuery ('.gold' ) .removeClass('gold-active');
     jQuery ('.earth' ) .removeClass('earth-active');
     jQuery ('.water' ) .removeClass('water-active');
-    jQuery ('.standard' ) .toggleClass('standard-active');
+    jQuery ('.standard' ) .addClass('standard-active');
    
   });
 
