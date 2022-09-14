@@ -12,10 +12,7 @@
         text-align: center;
     }
 
-    .benefits-switchers { 
-      
-        bottom: 0%;
-    }
+   
 
     .benefits-container-element, .benefits-container-all, .benefits-container-quantity { 
         width: unset;
@@ -67,6 +64,7 @@
 
     .benefits-switchers { 
         gap: 15px;
+        bottom: -7.5%;
     }
 
     .switcher-first, .switcher-second { 
@@ -129,8 +127,17 @@
         font-size: 6vw;
     }
 
+    h4 { 
+        font-size: 6vw;
+    }
+
+    h2 { 
+        font-size: 5vw;
+    }
+
     .benefits-itens { 
         flex-direction: column;
+        width: 100%;
     }
     .benefits-container { 
         height: 1200px;
@@ -139,36 +146,40 @@
     .benefits-container-element, .benefits-container-quantity,.benefits-container-all  { 
         width: 100%;
     }
-   
-  }
 
+    .benefits-rows { 
+        width: 100%;
+    }
 
-  @media only screen and (min-width: 1441px) {
     .benefits-switchers { 
-
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: unset;
         
-           bottom: 20%;
-            cursor: pointer;
-          
-       }
-    
-    
-    
+    }
+
+    .benefits-container { 
+        gap: 25px;
+    }
+
+    .switcher-first, .switcher-second { 
+        gap: 5px;
+    }
    
   }
+
+
+ 
 
   @media only screen and (max-width: 450px) {
     h3 { 
         font-size: 8vw;
     }
 
-    h4 { 
-        font-size: 5vw;
-    }
+   
 
-    h2 { 
-        font-size: 4vw;
-    }
 
     .benefits-header p { 
         font-size: 16px;
@@ -186,7 +197,9 @@
     }
 
   
-
+    footer p { 
+        font-size: 14px;
+    }
     
 
     
